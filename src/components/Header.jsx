@@ -10,9 +10,6 @@ import { FaBars } from "react-icons/fa";
 import { FaTimes } from "react-icons/fa";
 import { SiSparkar } from "react-icons/si";
 
-// extra
-import { useRef } from "react";
-
 const Header = () => {
   const [isActive, setIsActive] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
